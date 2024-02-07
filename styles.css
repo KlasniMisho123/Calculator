@@ -1,0 +1,69 @@
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 80%;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    margin: 0 auto;
+    width: 600px;
+}
+.flex-box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.screen-div {
+    background-color: #272829;
+    height: 30%;
+    width: 600px;
+    border-radius: 6px;
+}
+
+.output-div {
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.element-div{
+    width: 600px;
+    background-color: #61677A;
+    border: 3px solid #61677A;
+    border-radius: 6px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.y-btn{
+    background-color: yellow;
+}
+
+.w-btn{
+    background-color: gray;
+}
+
+.btn {
+    border-radius: 100%;
+    padding: 25px;
+    border-style: solid;
+}
+
+.zero {
+    grid-column: span 2;
+    border-radius: 40px;
+}
